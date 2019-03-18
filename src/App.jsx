@@ -1,15 +1,13 @@
 import React from "react"
-//import Article from "./Article"
-//import Header from "./Header"
-import Search from "./SearchCountries"
+import AppReg from "./AppReg"
 class App extends React.Component {
     render() {
-        return (
-            <div>
-                 
-               <Search />
-            </div>
-        )
+        return ( 
+            <div id ="d01">   
+            <AppReg/> 
+            </div> 
+          
+       )
     }
 }
 export default App
